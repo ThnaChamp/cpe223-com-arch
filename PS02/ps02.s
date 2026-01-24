@@ -4,7 +4,7 @@
 	.section	.rodata
 	.align	3
 .LC0:
-	.string	"%d "
+	.string	"%d"
 	.text
 	.align	2
 	.global	main

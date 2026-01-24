@@ -12,7 +12,6 @@ int main(){
         prev1 = curr;
     }
 
-    printf("%d ", curr);
+    printf("%d", curr);
     return 0;
 }
-
