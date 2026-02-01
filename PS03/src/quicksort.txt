@@ -1,0 +1,23 @@
+quicksort(array, low, high):
+    if low < high:
+        // หา pivot position
+        pivot_index = partition(array, low, high)
+        
+        // Sort ซ้าย
+        quicksort(array, low, pivot_index - 1)
+        
+        // Sort ขวา
+        quicksort(array, pivot_index + 1, high)
+
+partition(array, low, high):
+    pivot = array[high]        // เลือกตัวสุดท้ายเป็น pivot
+    i = low - 1                // ตัวชี้ส่วนที่เล็กกว่า pivot
+    
+    for j from low to high-1:
+        if array[j] <= pivot:
+            i = i + 1
+            swap(array[i], array[j])
+    
+    // วาง pivot ไว้ตำแหน่งที่ถูกต้อง
+    swap(array[i + 1], array[high])
+    return i + 1

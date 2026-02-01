@@ -13,7 +13,7 @@ main:
 	stp	x29, x30, [sp, -48]!
 	mov	x29, sp
 	mov	w0, 44
-	str	w0, [sp, 28]
+	str	w0,  [sp, 28]
 	mov	w0, 1
 	str	w0, [sp, 44]
 	str	wzr, [sp, 40]
