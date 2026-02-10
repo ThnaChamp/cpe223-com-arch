@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/CPE_ALL/2nd_sem2/CPE223/cpe223-com-arch/PS04/src/rtl/branch_predictor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_predictor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/CPE_ALL/2nd_sem2/CPE223/cpe223-com-arch/PS04/src/tb/branch_predictor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_predictor_tb

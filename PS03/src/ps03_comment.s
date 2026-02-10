@@ -117,7 +117,7 @@ QUICKSORT
 
 ;   quicksort(array, pivot_index + 1, high)
     MOV     R0, R4      ; R0 = array base (backup value)
-    ADD     R1, R3, #1  ; R1 = low (backup value) + 1
+    ADD     R1, R3, #1  ; R1 = pivot index (backup value) + 1
     MOV     R2, R6      ; R2 = high (backup value)
     BL      QUICKSORT   ; call quicksort
 
