@@ -14,7 +14,7 @@ LOOP    BL      SORT
 SORT    LDR     R1, [R0]
         LDR     R2, [R0, #0x04]
         CMP     R2, R1
-        BPL     NOTHING
+        BGE     NOTHING
         MOV     R11, R1
         MOV     R1, R2
         MOV     R2, R11

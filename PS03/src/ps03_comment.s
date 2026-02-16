@@ -1,6 +1,6 @@
 ;   initial
 Data    DCD     21, 10, 8, 1, 5, 7, 11, 6, 8
-        
+
 MAIN    
     LDR     R0, =Data       ;   Load address data
     MOV     R1, #0          ;   low = 0
@@ -20,7 +20,7 @@ PARTITION
 	LSL     R3, R2, #2  ;   LSL -> Shift 2 bit -> multiple 2
                         ;   R3 = high * 4
     ADD     R3, R0, R3  ;   memory = base + index
-
+    
 ;   R4 = pivot = arr[high]
     LDR     R4, [R3]    ;   load data from index high
 
